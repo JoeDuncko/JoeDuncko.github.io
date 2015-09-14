@@ -1,0 +1,38 @@
+/* utility */
+
+.center {
+    text-align: center;
+}
+
+.circle {
+    border-radius: 150px;
+}
+
+li {
+    list-style: none;
+}
+
+.fa {
+    margin-right: .5em;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #222;
+}
+
+.fa-external-link {
+    position: relative;
+    left: 5px;
+    top: -5px;
+    font-size: .2em;
+}
+
+.blue {
+    color: #1EAEDB;
+}
