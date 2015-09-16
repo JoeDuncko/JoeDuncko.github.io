@@ -43,6 +43,9 @@
     <link rel="stylesheet" href="/stylesheets/skeleton.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
 
+    <link rel="stylesheet" href="/stylesheets/print.css">
+    <!-- <link rel="stylesheet" href="/stylesheets/print.css" media="print"> -->
+
     <!-- Favicon -->
     <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
     <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
@@ -54,9 +57,13 @@
     <div class="container">
 
         <div class="row center">
-            <img class="circle" src="/images/JoeDunckoFace.jpg" />
+            <img class="circle hide-when-printing" src="/images/JoeDunckoFace.jpg" />
             <h1>Joe Duncko</h1>
-            <h2>My goal is to use technology to create brands and business models that make people's lives easier, simpler, and more fun.</p>
+            <div id="infobox">
+                <p>personal@joeDuncko.com | 330 967 0012 | JoeDuncko.com<br />
+                    <i class="fa fa-github"></i><i class="fa fa-twitter-square"></i>@JoeDuncko | <i class="fa fa-linkedin-square"></i>/in/JoeDuncko | <i class="fa fa-facebook-official"></i>/JoeDuncko
+            </div>
+            <h2 class="hide-when-printing">My goal is to use technology to create brands and business models that make people's lives easier, simpler, and more fun.</p>
         </div>
 
         <div class="row">
@@ -147,7 +154,7 @@
                 <h3><i class="fa fa-sign-in"></i>Memberships</h3>
                 <ul>
                     <li>
-                        <a href="http://penguinhackers.io/" title="To Penguin Hackers">Penguin Hackers</a>
+                        <a href="http://penguinhackers.io/" title="To Penguin Hackers">Penguin Hackers (Co-Founder)</a>
                     </li>
                     <li>
                         <a href="http://hackysu.com/" title="To HackYSU">HackYSU (Director)</a>
@@ -164,7 +171,7 @@
                     <li>
                         <a href="https://www.facebook.com/OakHillMkrSpace" title="To OHMS' Facebook">The Oak Hill Makerspace</a>
                     </li>
-                    <li>
+                    <li class="hide-when-printing">
                         <a href="http://impatientbanana.com/" title="To Team Impatient Banana">Team Impatient Banana</a>
                     </li>
                 </ul>
@@ -182,8 +189,8 @@
                     <li>Hackathons (traveled to Yale, Georgia Tech, University of Michigan, University of Cincinnati, and more)</li>
                </ul>
 
-                <h3><i class="fa fa-share-alt"></i>Social</h3>
-                <ul>
+                <h3 class="hide-when-printing"><i class="fa fa-share-alt"></i>Social</h3>
+                <ul class="hide-when-printing">
                     <li>
                         <a href="https://www.facebook.com/JoeDuncko" title="To Joe Duncko's Facebook"><i class="fa fa-facebook-official"></i>Facebook</a>
                     </li>
@@ -198,8 +205,8 @@
                     </li>
                 </ul>
 
-                <h3><i class="fa fa-comment"></i>Contact</h3>
-                <ul>
+                <h3 class="hide-when-printing"><i class="fa fa-comment"></i>Contact</h3>
+                <ul class="hide-when-printing">
                     <li>
                         <a href="mailto:personal@JoeDuncko.com" title="Email Joe Duncko"><i class="fa fa-envelope"></i>Email</a>
                     </li>
@@ -211,16 +218,20 @@
 
     </div>
 
-    <div class="container">
+    <footer class="container hide-when-printing">
         <div class="row small">
-            <div class="one-half column">
+            <div class="one-third column">
                 <i class="fa fa-copyright"></i>Joe Duncko 2015
             </div>
-            <div class="one-half column">
+            <div class="one-third column center">
+                <a class="do-not-add-link-icon" href="/"><i class="fa fa-code-fork"></i></a>
+                <a class="do-not-add-link-icon" href="/"><i class="fa fa-print"></i></a>
+            </div>
+            <div class="one-third column">
                 <em class="u-pull-right">let's create, together</em>
             </div>
         </div>
-    </div>
+    </footer>
 
     <!-- Javascript libraries -->
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>

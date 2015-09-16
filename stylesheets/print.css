@@ -1,0 +1,65 @@
+/* utilities */
+.hide-when-printing {
+    display: none;
+}
+
+/* reset center */
+.center {
+    text-align: left;
+}
+
+/* reset body margins */
+body {
+    margin: 0 0 0 0;
+    font-size: .9em;
+}
+
+/* fix header, add infobox */
+h1 {
+    float:left;
+}
+#infobox {
+    padding-top: 1em;
+
+    text-align:right;
+    float:right;
+}
+
+/* fix responsiveness of Skills section */
+.one-half-inception.column {
+    width: 48% !important;
+}
+
+/* clean up spacing between lists */
+li {
+    margin-bottom: 0rem;
+}
+ul ul, ul ol, ol ol, ol ul {
+    margin: .5rem 0 .5rem 1rem;
+}
+
+/* resize headers */
+h1 {
+    font-size: 3.0rem !important;
+    line-height: 1.2;
+}
+h2 {
+    font-size: 2.4rem !important;
+    line-height: 1.25;
+}
+h3 {
+    font-size: 1.8rem !important;
+    line-height: 1.3;
+}
+h4 {
+    font-size: 1.2rem !important;
+    line-height: 1.35;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+}
+
+/* shrink bottom margins */
+pre, blockquote, dl, figure, table, p, ul, ol, form {
+    margin-bottom: 1rem;
+}
