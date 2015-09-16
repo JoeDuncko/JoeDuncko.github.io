@@ -8,11 +8,27 @@
 .small {
     font-size: 1rem;
 }
+.display-only-when-printing {
+    display: none;
+}
+.align-text-right {
+    text-align: right;
+}
 
 /* body margins */
 body {
     margin-top: 7rem;
     margin-bottom: 1rem;
+}
+
+/* make the footer shrink properly */
+footer {
+    text-align: center;
+}
+@media (min-width: 550px) {
+    footer {
+        text-align: left;
+    }
 }
 
 /* remove list style */
@@ -28,6 +44,10 @@ a {
 a:hover {
     text-decoration: none;
     color: #222;
+}
+.keep-hover-effect:hover {
+    text-decoration: none;
+    color: #1EAEDB;
 }
 .fa-external-link {
     position: relative;

@@ -3,6 +3,10 @@
     display: none;
 }
 
+.display-only-when-printing {
+    display: block;
+}
+
 /* reset center */
 .center {
     text-align: left;
