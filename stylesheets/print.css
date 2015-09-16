@@ -36,7 +36,7 @@ h1 {
 
 /* clean up spacing between lists */
 li {
-    margin-bottom: 0rem;
+    margin-bottom: .5rem;
 }
 ul ul, ul ol, ol ol, ol ul {
     margin: .5rem 0 .5rem 1rem;
