@@ -1,38 +1,52 @@
 /* utility */
-
 .center {
     text-align: center;
 }
-
 .circle {
     border-radius: 150px;
 }
+.small {
+    font-size: .7em;
+}
 
+/* body margins */
+body {
+    margin-top: 6em;
+    margin-bottom: 1em;
+}
+
+/* remove list style */
 li {
     list-style: none;
 }
 
-.fa {
-    margin-right: .5em;
-}
-
+/* link style */
 a {
     text-decoration: none;
     color: #222;
 }
-
 a:hover {
     text-decoration: none;
     color: #222;
 }
-
 .fa-external-link {
     position: relative;
     left: 5px;
     top: -5px;
     font-size: .2em;
 }
-
 .blue {
     color: #1EAEDB;
+}
+
+/* add margins to the right of all Font Awesome icons */
+.fa {
+    margin-right: .5em;
+}
+
+/* fix responsiveness of Skills section */
+@media (min-width: 850px) {
+    .one-half-inception.column {
+        width: 48%;
+    }
 }
