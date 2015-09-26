@@ -1,3 +1,8 @@
+/* font */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 /* utilities */
 .hide-when-printing {
     display: none;
