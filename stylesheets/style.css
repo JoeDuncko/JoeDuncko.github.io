@@ -21,6 +21,11 @@ body {
     margin-bottom: 1rem;
 }
 
+/* Size my face nicely */
+.face {
+    width: 200px;
+}
+
 /* make the footer shrink properly */
 footer {
     text-align: center;
